@@ -1,0 +1,25 @@
+{
+  "name": "@soul-forge/semantic-wormholes",
+  "version": "0.1.0",
+  "description": "🌀 Quantum tunnels between semantically similar code",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "@soul-forge/protein-hash": "^0.1.1",
+    "@soul-forge/cosmic-orrery": "^0.1.0",
+    "three": "^0.160.0",
+    "vectorious": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.160.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "gh-pages": "^6.0.0"
+  }
+}
